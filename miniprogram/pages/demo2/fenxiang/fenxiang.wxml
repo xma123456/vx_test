@@ -1,0 +1,72 @@
+<!--miniprogram/pages/fenxiang/fenxaing.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">分享好物</h2>
+		</view>
+		<view class="weui-form__control-area">
+			<view class="weui-cells__group weui-cells__group_form">
+
+
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_active">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="标题" bindinput="gettitle"/>
+                </view>
+            </view>
+        </view>
+			
+       	<view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">
+						<view class="weui-cell__hd">
+							<label class="weui-label" style="width: 3em">种类</label>
+						</view>
+						<view class="weui-cell__bd">
+                            <picker bindchange="bindPicker3Change" range="{{array3}}" >
+                                <view class="weui-select">{{array3[value3]}}</view>
+                            </picker>
+						</view>
+					</view>
+
+				
+				<view class="weui-cells weui-cells_form">
+					<view class="weui-cell ">
+						<view class="weui-cell__bd">
+							<textarea class="weui-textarea" placeholder="简述" rows="3" bindinput="getword"></textarea>
+							<view class="weui-textarea-counter"><text>0</text>/200</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+	 <view class='top'><text class='top_name'>商品图片：</text></view>
+  <!-- 图片 -->
+  <view class="images_box">
+    <block wx:key="imgbox" wx:for="{{imgbox}}">
+      <view class='img-box'>
+        <image class='img' src='{{item}}'></image>
+        <view class='img-delect' data-deindex='{{index}}' bindtap='imgDelete1'>
+          <image class='img' src='delect.png'></image>   
+        </view>
+      </view>
+    </block>
+    <view class='img-box' bindtap='addPic1' wx:if="{{imgbox.length<9}}">
+      <image class='img' src='add.png'></image>   
+    </view>
+  </view>
+  <button bindtap='fb'>上传图片</button>
+
+		<view class="weui-form__opr-area" bindtap="savemeg">
+			<a class="weui-btn weui-btn_primary">确定</a>
+		</view>
+
+
+
+
+
+
+
+
+	</view>
+</view>
+

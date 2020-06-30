@@ -1,0 +1,5 @@
+<!--pages/hello/hello.wxml-->
+<view class="container">
+    <image src="hello.png"> </image>
+    <navigator url="/pages/demo1/demo1" open-type="switchTab" hover-class="nav-hover">进入</navigator>
+</view>

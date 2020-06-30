@@ -1,0 +1,33 @@
+<!--miniprogram/pages/title2/title2.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">手持小风扇</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">亮点一：三档变速</view>
+                    <view class="weui-article__p">
+                        这款手持小风扇一共支持三个档位，对应的是柔风，爽风，劲风，在对应的档位，分别能续航10小时、7小时、3.5小时，拥有2600mah的电池容量
+                        使你在炎热的夏日，能够畅享凉爽
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="title2_1.jpg" mode="aspectFit" style="height: 180px" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">亮点二：可拆卸底座</view>
+                    <view class="weui-article__p">
+                       该款小风扇的底座可以拆卸，方便收纳，在家时可以安装上底座，一边学习，一边使用，外出时，可以拆卸底座，风扇就变得小巧易收纳，需要的时候就可以拿出来，享受夏日里难得的丝丝
+                       凉意，同时2600mah的大电池，续航持久。
+                     <image class="weui-article__img" src="title2_2.jpg" mode="aspectFit" style="height: 180px" />
+                    </view>
+                    <view>
+                        除了上面这几个很实用的设计外，这款小风扇采用7扇羽叶设计，翼型刨面配合无刷直流电机，达到降噪效果，带给你超强的静音体验，小风扇的前盖可拆卸，非常方便清洁，
+                        同时采用micro-usb接口，出门在外只需一根数据线，无论是移动电源、充电器还是笔记本电脑，都可以为风扇充电
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+

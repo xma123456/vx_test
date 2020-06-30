@@ -1,0 +1,10 @@
+/* pages/hello/hello.wxss */
+.container{
+  background-color:#fefefe;
+  height: 100vh;
+  text-align: center;
+}
+image{
+  height: 200px;
+  width: 270px;
+}

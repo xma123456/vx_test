@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "hello/hello",
+    "pages/demo1/demo1",
+    "pages/demo2/demo2",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo1/title1/title1",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/demo2/fenxiang/fenxiang",
+    "pages/demo1/title2/title2",
+    "pages/demo1/list1/list1"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "云胡不喜",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/demo1/demo1",
+        "text": "推荐",
+        "iconPath": "images/icon/demo1_1.png",
+        "selectedIconPath": "images/icon/demo1_2.png"
+      },
+      {
+        "pagePath": "pages/demo2/demo2",
+        "text": "关于",
+        "iconPath": "images/icon/demo2_1.png",
+        "selectedIconPath": "images/icon/demo2_2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

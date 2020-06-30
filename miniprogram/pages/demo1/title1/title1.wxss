@@ -1,0 +1,2 @@
+/* pages/title1/title1.wxss */
+.page{background-color:var(--weui-BG-2)}image{margin:4px 0}

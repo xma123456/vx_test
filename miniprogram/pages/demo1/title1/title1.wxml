@@ -1,0 +1,34 @@
+<view class="page" data-weui-theme="{{theme}}">
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">床上电脑桌</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">功能一：手机平板卡槽和小抽屉</view>
+                    <view class="weui-article__p">
+                        就相当于给手机平板买了个小支架用平板用手机看电视的时候，这个卡槽就很有用了。手机平板横屏和竖屏都可以放上去。
+                           左侧底部有一个多功能小抽屉，打开后可以放一些常用的小文具。小抽屉里还有一个小卡槽，也可以放手机。
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="title1_2.jpg" mode="aspectFit" style="height: 180px" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">功能二：可拆卸阅读书架</view>
+                    <view class="weui-article__p">
+                       底部的多功能书架可以直接安装在手机平板卡槽上让你看书写字的时候更加方便而且这个多功能书架是可以拆开
+                       来单独使用平时放在办公桌书桌上当一个普通的阅读书架也是不错的
+                     <image class="weui-article__img" src="title1_1.jpg" mode="aspectFit" style="height: 180px" />
+                    </view>
+                    <view>
+                        除了上面这几个很实用的功能外，这款电脑桌在设计上也是很用心的。桌子四个角都加了软胶保护无直角更
+                        安全靠近我们身体一侧设计有一个护手板。双手放在电脑桌上很舒服，一点都不硌手护手板中间凹进去的设
+                        计，让我们可以更好的“拥抱”电脑桌使用电脑桌的时候，这个凹进去的弧度可以避开你的腹部或者胸部，用
+                        起来更舒服采用的是圆弧形的桌腿虽然只有两条腿，但我发现这种桌腿比普通的四条腿的要稳定多了。放在被
+                        子上还可以避免桌腿高低不一的情况发生。桌腿四个角落还有防滑脚设计，放在床上稳定性没的说。
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
